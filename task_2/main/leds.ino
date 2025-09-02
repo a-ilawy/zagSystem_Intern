@@ -60,7 +60,7 @@ void shift_leds_down(){
 }
 
 int getRandomNumber(int index) {
-  return random(0, index); // +1 so index is included
+  return random(0, index);
 }
 
 void switch_random_led(){
@@ -74,4 +74,5 @@ void switch_random_led(){
   
   digitalWrite(led_array[led_index], HIGH);
   last_led = led_index;
+
 }
